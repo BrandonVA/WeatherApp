@@ -9,7 +9,7 @@ submit.addEventListener('click', () => {
 
     // storing url components for api call defualt city edmonds
     let apiKey = '&units=imperial&appid=d8730e114dc8b472804de4c9ab0ed1da';
-    let url = 'http://api.openweathermap.org/data/2.5/weather?q='
+    let url = 'https://api.openweathermap.org/data/2.5/weather?q='
     let city = 'edmonds';
 
     // storing the input value of the text input

@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    margin-top: 15px;
+    text-align: center;
+
+}
+.display-4 {
+    margin-bottom: 10px;
+}
+.jumbotron {
+    padding: 2rem 2rem;
+}
 .icon-attribute {
     position: absolute;
     bottom: 0;
@@ -12,7 +26,15 @@
     margin-left: auto;
     margin-right: auto;
 }
-main {
+.jumbotron {
+    width: 80%;
+    margin: 0 auto;
+}
+.btn {
     margin-top: 15px;
-    text-align: center;
+}
+#btnTempF,
+#btnTempC {
+    bottom: 0;
+    margin-top: 20px;
 }
